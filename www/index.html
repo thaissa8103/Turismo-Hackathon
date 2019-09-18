@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+body {
+  font-family: Helvetica;
+  background-color: #489D2C;
+}
+
+.mobile-container {
+
+  background-color: #AFE675;
+  height: 2050px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: #489D2C;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #489D2C;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+
+
+</head>
+<body>
+
+<!-- Simulate a smartphone / tablet -->
+
+<div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">Mongaguá</a>
+  <div id="myLinks">
+    <a href="#news">Turismo Ecologico</a>
+    <a href="#contact">Eventos e Trabalhos </a>
+    <a href="#about">Esporte e Musica</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+  <h1> Noticias e Atualidade: </h1>
+  <h4> Poder Público inicia recuperação da ciclovia da Avenida Monteiro Lobato: </h4>
+  <img> 
+  <p> Nesta segunda-feira (16), a Diretoria de Serviços Externos iniciou o processo de recuperação da ciclovia da Avenida Monteiro Lobato. A primeira etapa de reparos se concentrou no trecho do Santa Eugênia, ponto da ciclovia onde a situação de degradação se mostrava mais crítica. Objetivo das intervenções é garantir mais segurança e trafegabilidade aos ciclistas.</p>
+  
+  <h4> CMF 2019: Diretoria de Esportes visita campos que receberão jogos </h4>
+  <img> </img>
+  <p> Na manhã desta quinta-feira (12), o Diretor Municipal de Esportes Gilmar  Freitas “Corintiano”, fez vistorias em campos dos clubes: Avenida, Mongaguá Praia Clube, Grêmio Operário, Flamenguinho, Unidos do Itaóca, Agenor de Campos, Primavera, Itaguaí e Vila Operária. Estes campos abrigarão partidas do Campeonato Mongaguense de Futebol 2019 (CMF), essa visita servirá para relatar irregularidades e possíveis melhorias.</p>
+
+  <h4> Programa Onda Limpa ganha nova etapa em Mongaguá </h4>
+  <img> </img>
+  <p> Fruto da parceria entre Prefeitura e Sabesp, o Programa Onda limpa está com mais uma etapa em curso em Mongaguá. E, neste domingo, dia 15, será o início das obras de ampliação para a implantação do Sistema de Coleta e Afastamento dos Esgotos. Os serviços contemplarão os bairros Agenor de Campos, Jussara e Cavalo Marinho. A estimativa é de que, até o fim do programa, 97% da cidade estejam cobertos pela rede de saneamento básico.</p>
+
+  <h4> Quarta-feira (18) de muito trabalho para as equipes de Serviços Externos </h4>
+  <img> </img>
+  <p> A Avenida Nossa Senhora de Fátima, local que está recebendo diversas ações ao longo da semana, contou com o auxílio do hidrojato para a desobstrução de bueiros. A Rua Santa Terezinha, em Agenor de Campos, que também está sendo foco das diretorias, foi contemplada com limpeza das galerias. Já nas proximidades da Creche Barigui, técnicos da pasta se empenharam na retirada de grande quantidade de lixo e entulho que estava presente em um terreno próximo a escola.</p>
+
+  <h4> Avenida Monteiro Lobato recebe trabalhos de fresagem em mais um trecho </h4>
+  <img> </img>
+  <p> Os investimentos no bairro Agenor de Campos têm sido assunto incessante nos planejamentos da Prefeitura.  Prova disso é o empenho no projeto de repavimentação da Avenida Monteiro Lobato. Nesta terça-feira (17), técnicos da Diretoria de Obras Públicas realizaram mais uma etapa do processo de fresagem do solo, ação que tem como finalidade a remoção de pavimentos antes da execução de um novo revestimento do asfalto. Os trabalhos desta tarde se concentraram na região da Avenida Nossa Senhora de Fátima.</p>
+
+  <h4> Conjunto Mazzeo é foco da Diretoria de Limpeza Pública </h4>
+  <img> </img>
+  <p> A Rua Marcílio dos Santos, no Conjunto Mazzeo, recebeu técnicos da Diretoria de Limpeza Pública para realização de melhorias em todo trecho. Entre os trabalhos, destaque para o nivelamento da via, retirada de resíduos e remoção do excesso de vegetação. As ações realizadas pela pasta visam garantir uma melhor qualidade de vida para os moradores daquela região..</p>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- End smartphone / tablet look -->
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
