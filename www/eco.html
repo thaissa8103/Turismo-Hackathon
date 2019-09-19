@@ -1,18 +1,82 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
-    <link rel="stylesheet" href="components/loader.css">
-    <script src="components/loader.js"></script>
-    <script>
-        //
-        // TODO: Write JavaScript code here
-        //
-    </script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style2.css">
+
 </head>
 <body>
-    <!-- TODO: Please edit here -->
+
+<!-- Simulate a smartphone / tablet -->
+
+<div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="index.html" class="active">Mongaguá</a>
+  <div id="myLinks">
+    <a href="eco.html">Turismo Ecologico</a>
+    <a href="#contact">Eventos e Trabalhos </a>
+    <a href="#about">Esporte e Musica</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+  <h1> Tursimo Ecológico: </h1>
+  <h4> Parque Turístico Ecológico "A Tribuna" </h4>
+  <img src="imagem2/parque.jpg" class="imgresponsive" alt="Monteiro">
+  <p> </p>
+  
+  <h4> Poço das Antas </h4>
+  <img src="imagem2/poco.jpg" class="igmresponsive2" alt="Esportes">
+  <p></p>
+
+  <h4> Programa Onda Limpa ganha nova etapa em Mongaguá </h4>
+  <img src="imagem2/onda.png" alt="Onda">
+  <p> </p>
+
+  <h4> La Praia Sem Papel: evento em prol do Meio Ambiente viraliza em Mongaguá </h4>
+  <img src="imagem2/lapraia.jpg" class="imgresponsive" alt="Monteiro Lobato">
+  <p> </p>
+
+  <h4> Avenida Monteiro Lobato recebe trabalhos de fresagem em mais um trecho </h4>
+  <img src="imagem2/monteiro.jpg" alt="Ruas">
+  <p> .</p>
+
+  <h4> Cartório Eleitoral de Mongaguá fará plantão especial neste sábado (21) </h4>
+  <img src="imagem2/eleicoes.jpeg" alt="eleicoes">
+  <p> </p>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- End smartphone / tablet look -->
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
 </body>
 </html>
